@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Unit 3 Project Starter Code</title>
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-    
-    <body>
-        <!-- Add a title and edit the opening of your story. -->
-        <div class="title"> Trolley Problem </div>
-        <div class="story-opening">
-            <img src="Assets/uneditedTrolley.webp">
-            <h1>You look and see a train heading straight for a man on a track.You have the option to pull the lever to divert the track saving his life.  What do you do.</h1>
-        </div>
 
-        <!-- Change the text of the buttons to the options relevant to your story. -->
+<head>
+    <title>Unit 3 Project Starter Code</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+
+<body>
+    <!-- Add a title and edit the opening of your story. -->
+    <div class="title"> Trolley Problem </div>
+    <div class="story-opening">
+        <img class="image-one" src="Assets/TrolleyProblemOpeningPhoto.png">
+        <h1 class="question-one">You look and see a train heading straight for a man on a track.You have the option to
+            pull the lever to divert the track saving his life. What do you do.</h1>
+    </div>
+
+    <!-- Change the text of the buttons to the options relevant to your story. -->
+    <div class="buttons">
+        <button class="option-one">Pull the lever and save the man.</button>
+        <button class="option-two">do nothing a let him die.</button>
+    </div>
+
+    <!-- Put the part of the story the user will see if they picked option one. -->
+    <div class="option-one-screen">
+        <h1 class="question-two">You have advanced to the second and final Question. You see a bunch of critically
+            endangered sea turtles stuck on the track. You could devert it to the other track killing___ which is also a
+            highly endangered animal</h1>
+        <img class="image-two"
+            src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+      <button class="option-three">Pull the lever and kill the man.</button>
+            <button class="option-four">do nothing and kill the Turtles.</button>
+        </div> 
+     
+
+    <!-- Put the part of the story the user will see if they picked option two. -->
+    <div class="option-two-screen">
+        <h1>you let the man die, and got sent to prison.</h1>
+        <img class="end-screen" src="Assets/end Screen.png">
         <div class="buttons">
-            <button class="option-one">Pull the lever and save the man.</button>
-            <button class="option-two">do nothing a let him die.</button>
+       
         </div>
+    </div>
 
-        <!-- Put the part of the story the user will see if they picked option one. -->
-        <div class="option-one-screen">
-            <h1>Put the second part of your story based on if they chose option 1</h1>
-            <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
-        </div>
+    <!--Put the end of the story if the user chose option 1.-->
+    <div class="option-one-end">
+        <h1>Put final part of your story based on if they chosen option 1 at the beginning </h1>
+        <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+    </div>
 
-        <!-- Put the part of the story the user will see if they picked option two. -->
-        <div class="option-two-screen">
-            <h1>Put the second part of your story based on if they chose option 2 </h1>
-            <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
-        </div>
+    <!-- Put the end of the story if the user chose option 2.-->
+    <div class="option-two-end">
+        <h1>Put final part of your story based on if they chosen option 2 at the beginning </h1>
+        <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+    </div>
+</body>
 
-        <!--Put the end of the story if the user chose option 1.-->
-        <div class="option-one-end">
-            <h1>Put final part of your story based on if they chosen option 1 at the beginning </h1>
-            <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
-        </div>
-
-        <!-- Put the end of the story if the user chose option 2.-->
-        <div class="option-two-end">
-            <h1>Put final part of your story based on if they chosen option 2 at the beginning </h1>
-            <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
-        </div>
-    </body>
 </html>
