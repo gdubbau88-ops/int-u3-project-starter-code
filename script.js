@@ -11,6 +11,8 @@ let option2Screen = document.querySelector(".option-two-screen");
 let option1Screen = document.querySelector(".option-one-screen");
 let opening = document.querySelector(".story-opening");
 let endScreen = document.querySelector(".end-screen");
+let peta = document.querySelector(".option-end-peta");
+let felon = document.querySelector(".option-end-felon");
 
 
 
@@ -42,14 +44,28 @@ option2.addEventListener('click', function () {
 
 
 option3.addEventListener('click', function(){
+     option3.style.display = "none";
+    option4.style.display = "none";
+     opening.style.display = "none";
+    // image1.style.display = "none";
+    // question1.style.display = "none";
+    question2.style.display = "none";
+    endScreen.style.display = "none";
+    option2Screen.style.display = "none";
+    image2.style.display = "none";
+    peta.style.display="block";
+});
+option4.addEventListener("click", function(){
      option1.style.display = "none";
     option2.style.display = "none";
+    option3.style.display = "none";
+    option4.style.display = "none";
      opening.style.display = "none";
     // image1.style.display = "none";
     // question1.style.display = "none";
     endScreen.style.display = "none";
     option2Screen.style.display = "none";
-});
-option4.addEventListener("click", function(){
-
+    image2.style.display = "none";
+    question2.style.display = "none";
+    felon.style.display = "block";
 });
