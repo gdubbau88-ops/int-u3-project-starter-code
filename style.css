@@ -96,8 +96,8 @@ button:hover {
 /* Style the images in the screens */
 .option-one-screen img,
 .option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+.option-end-felon img,
+.option-end-peta img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
