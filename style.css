@@ -5,7 +5,9 @@
 .option-one-screen, 
 .option-two-screen, 
 .option-one-end, 
-.option-two-end  {
+.option-two-end,
+.option-three,
+.option-four{
    display:none;
 }
 

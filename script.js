@@ -35,6 +35,8 @@ option1.addEventListener('click', function () {
 option2.addEventListener('click', function () {
     option1.style.display = "none";
     option2.style.display = "none";
+    option3.style.display = "none";
+    option4.style.display = "none";
     opening.style.display = "none";
     // image1.style.display = "none";
     // question1.style.display = "none";
