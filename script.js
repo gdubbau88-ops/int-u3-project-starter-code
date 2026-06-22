@@ -30,6 +30,7 @@ option1.addEventListener('click', function () {
     question2.style.display = "block";
     option1Screen.style.display = "block";
     option3.style.display = "block";
+    option4.style.display = "block";
 });
 option2.addEventListener('click', function () {
     option1.style.display = "none";
@@ -54,6 +55,7 @@ option3.addEventListener('click', function () {
     option2Screen.style.display = "none";
     image2.style.display = "none";
     peta.style.display = "block";
+    option1Screen.style.display= "none";
 });
 option4.addEventListener("click", function () {
     option1.style.display = "none";
@@ -61,6 +63,7 @@ option4.addEventListener("click", function () {
     option3.style.display = "none";
     option4.style.display = "none";
     opening.style.display = "none";
+    option1Screen.style.display = "none";
     // image1.style.display = "none";
     // question1.style.display = "none";
     endScreen.style.display = "none";
