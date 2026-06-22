@@ -61,6 +61,7 @@ body {
 /* Style the buttons container */
 .buttons{
     margin: 20px;
+    display: flex;
 }
 
 /* Style the option buttons */
@@ -84,6 +85,8 @@ button:hover {
 .option-one-screen,
 .option-two-screen,
 .option-one-end,
+.option-end-felon,
+.option-end-peta,
 .option-two-end {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -107,6 +110,8 @@ button:hover {
 .option-one-screen h1,
 .option-two-screen h1,
 .option-one-end h1,
+.option-end-felon h1,
+.option-end-peta h1,
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
