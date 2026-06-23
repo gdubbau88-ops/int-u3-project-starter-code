@@ -15,6 +15,7 @@ let peta = document.querySelector(".option-end-peta");
 let felon = document.querySelector(".option-end-felon");
 let answer = document.querySelector(".answer");
 let next = document.querySelector(".option-next");
+let question3 = document.querySelector(".question-three");
 
 
 
@@ -51,6 +52,7 @@ option2.addEventListener('click', function () {
 option3.addEventListener('click', function () {
     option3.style.display = "none";
     option4.style.display = "none";
+    next.style.display="none";
     opening.style.display = "none";
     // image1.style.display = "none";
     // question1.style.display = "none";
@@ -63,6 +65,7 @@ option3.addEventListener('click', function () {
 });
 option4.addEventListener("click", function () {
     option1.style.display = "none";
+    next.style.display="none";
     option2.style.display = "none";
     option3.style.display = "none";
     option4.style.display = "none";
@@ -84,4 +87,11 @@ next.addEventListener("dblclick",function(){
     endScreen.style.display = "none";
     option2Screen.style.display = "none";
     next.style.display="none";
+    peta.style.display="none";
+    felon.style.display="none";
+    question2.style.display="none";
+    option1Screen.style.display="none";
+    question3.style.display="block";
+    answer.style.display="block";
+
 })
