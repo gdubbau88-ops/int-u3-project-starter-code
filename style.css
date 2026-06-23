@@ -7,7 +7,8 @@
 .option-one-end, 
 .option-two-end,
 .option-three,
-.option-four{
+.option-four,
+.option-next{
    display:none;
 }
 

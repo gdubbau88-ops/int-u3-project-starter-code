@@ -13,7 +13,8 @@ let opening = document.querySelector(".story-opening");
 let endScreen = document.querySelector(".end-screen");
 let peta = document.querySelector(".option-end-peta");
 let felon = document.querySelector(".option-end-felon");
-
+let answer = document.querySelector(".answer");
+let next = document.querySelector(".option-next");
 
 
 
@@ -31,6 +32,7 @@ option1.addEventListener('click', function () {
     option1Screen.style.display = "block";
     option3.style.display = "block";
     option4.style.display = "block";
+    next.style.display="block"
 });
 option2.addEventListener('click', function () {
     option1.style.display = "none";
@@ -74,3 +76,12 @@ option4.addEventListener("click", function () {
     question2.style.display = "none";
     felon.style.display = "block";
 });
+next.addEventListener("dblclick",function(){
+    option1.style.display = "none";
+    option2.style.display = "none";
+    option3.style.display = "none";
+    option4.style.display = "none";
+    endScreen.style.display = "none";
+    option2Screen.style.display = "none";
+    next.
+})
