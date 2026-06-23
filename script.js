@@ -83,5 +83,5 @@ next.addEventListener("dblclick",function(){
     option4.style.display = "none";
     endScreen.style.display = "none";
     option2Screen.style.display = "none";
-    next.
+    next.style.display="none";
 })
