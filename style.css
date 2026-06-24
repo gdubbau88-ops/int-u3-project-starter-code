@@ -9,10 +9,15 @@
 .option-three,
 .option-four,
 .option-next,
-.question-three{
+.question-three,
+.option-submit{
    display:none;
 }
-
+.option-submit{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
 .end-screen {
 align-items: center;
 text-align: center;
