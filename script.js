@@ -17,7 +17,7 @@ let answer = document.querySelector(".answer");
 let next = document.querySelector(".option-next");
 let question3 = document.querySelector(".question-three");
 let submit = document.querySelector(".option-submit");
-
+let message = document.querySelector(".message");
 
 
 // When you're ready to make event handlers, uncomment the code below. 
@@ -94,9 +94,19 @@ next.addEventListener("dblclick", function () {
     option1Screen.style.display = "none";
     question3.style.display = "block";
     answer.style.display = "block";
-    submit.style.display = "block";
+    submit.style.display = "block"; w
+
 })
-submit.addEventListener("click", function() {
+submit.addEventListener("click", function () {
+    let answer = Number(document.querySelector(".answer").value);
     answer.value;
     console.log(answer.value)
+    if (answer < 1) {
+        message.innerHTML = "you value babies more than adults."
+
+    } else if (answer === 1) {
+        message.innerHTML = "correct!! You value as much as adults"
+    } else if (answer > 1) {
+        message.innerHTML = "you value adults more than babies you monster"
+    }
 });
