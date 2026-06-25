@@ -100,27 +100,27 @@ next.addEventListener("dblclick", function () {
     option1Screen.style.display = "none";
     question3.style.display = "block";
     answer.style.display = "block";
-    submit.style.display = "block"; 
+    submit.style.display = "block";
     reset.style.display = "block";
 
 })
-reset.addEventListener("click", function(){
-    opening.style.display ="block";
+reset.addEventListener("click", function () {
+    opening.style.display = "block";
     option1.style.display = "block";
     felon.style.display = "none";
     peta.style.display = "none";
-    option2.style.display ="block";
+    option2.style.display = "block";
     next.style.display = "none";
     reset.style.display = "none";
     option2Screen.style.display = "none";
-    question2.style.display ="none";
+    question2.style.display = "none";
     question3.style.display = "none";
     option3.style.display = "none";
     option4.style.display = "none";
     answer.style.display = "none";
     submit.style.display = "none";
     option1Screen.style.display = "none";
-    image2.style.display="none";
+    image2.style.display = "none";
 })
 submit.addEventListener("click", function () {
     let answer = Number(document.querySelector(".answer").value);
@@ -132,5 +132,7 @@ submit.addEventListener("click", function () {
         message.innerHTML = "correct!! You value as much as adults"
     } else if (answer > 1) {
         message.innerHTML = "you value adults more than babies you monster"
+    } else {
+        message.innerHTML = "please input number"
     }
 });
