@@ -10,7 +10,8 @@
 .option-four,
 .option-next,
 .question-three,
-.option-submit{
+.option-submit,
+.option-reset{
    display:none;
 }
 .option-submit{

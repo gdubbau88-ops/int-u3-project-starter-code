@@ -18,6 +18,7 @@ let next = document.querySelector(".option-next");
 let question3 = document.querySelector(".question-three");
 let submit = document.querySelector(".option-submit");
 let message = document.querySelector(".message");
+let reset = document.querySelector(".option-reset");
 
 
 // When you're ready to make event handlers, uncomment the code below. 
@@ -35,6 +36,8 @@ option1.addEventListener('click', function () {
     option3.style.display = "block";
     option4.style.display = "block";
     next.style.display = "block"
+    reset.style.display = "block"
+    image2.style.display = "block";
 });
 option2.addEventListener('click', function () {
     option1.style.display = "none";
@@ -46,6 +49,7 @@ option2.addEventListener('click', function () {
     // question1.style.display = "none";
     endScreen.style.display = "block";
     option2Screen.style.display = "block";
+    reset.style.display = "block"
 
 });
 
@@ -63,6 +67,7 @@ option3.addEventListener('click', function () {
     image2.style.display = "none";
     peta.style.display = "block";
     option1Screen.style.display = "none";
+    reset.style.display = "block";
 });
 option4.addEventListener("click", function () {
     option1.style.display = "none";
@@ -79,6 +84,7 @@ option4.addEventListener("click", function () {
     image2.style.display = "none";
     question2.style.display = "none";
     felon.style.display = "block";
+    reset.style.display = "block";
 });
 next.addEventListener("dblclick", function () {
     option1.style.display = "none";
@@ -94,8 +100,27 @@ next.addEventListener("dblclick", function () {
     option1Screen.style.display = "none";
     question3.style.display = "block";
     answer.style.display = "block";
-    submit.style.display = "block"; w
+    submit.style.display = "block"; 
+    reset.style.display = "block";
 
+})
+reset.addEventListener("click", function(){
+    opening.style.display ="block";
+    option1.style.display = "block";
+    felon.style.display = "none";
+    peta.style.display = "none";
+    option2.style.display ="block";
+    next.style.display = "none";
+    reset.style.display = "none";
+    option2Screen.style.display = "none";
+    question2.style.display ="none";
+    question3.style.display = "none";
+    option3.style.display = "none";
+    option4.style.display = "none";
+    answer.style.display = "none";
+    submit.style.display = "none";
+    option1Screen.style.display = "none";
+    image2.style.display="none";
 })
 submit.addEventListener("click", function () {
     let answer = Number(document.querySelector(".answer").value);
@@ -103,7 +128,6 @@ submit.addEventListener("click", function () {
     console.log(answer.value)
     if (answer < 1) {
         message.innerHTML = "you value babies more than adults."
-
     } else if (answer === 1) {
         message.innerHTML = "correct!! You value as much as adults"
     } else if (answer > 1) {
